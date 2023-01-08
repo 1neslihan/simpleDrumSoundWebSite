@@ -1,0 +1,92 @@
+body{
+    background-color: #5BC0F8;
+    font-family: 'Rowdies', cursive;
+    color:white;
+}
+#head{
+    margin:30px auto 30px auto;
+}
+
+.heading{
+    
+    font-size:8rem;
+    text-shadow: 1px 5px #144272, 3px 7px #EA047E;
+
+}
+
+#buttons{
+    margin:100px auto 0 auto;
+}
+
+#footer{
+    text-shadow: 1px 1px 5px #EA047E;
+    font-size: 1.2rem;
+}
+
+.drum{
+    width: 150px;
+    height: 150px;
+    margin:15px;
+    font-size: 3rem;
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    line-height: 2;
+    padding-top:55px;
+    text-align:center;
+    text-shadow: 1px 5px #144272, 3px 7px #EA047E;
+       
+}
+
+.drum:hover{
+    box-shadow: 1px 1px 10px 1px white;
+
+}
+
+.drum:active{
+    border-color:#EA047E;
+    box-shadow: 2px 2px 40px 2px #EA047E;
+}
+
+.activated{
+    border-color:#EA047E;
+    box-shadow: 2px 2px 40px 2px #EA047E;
+    
+}
+
+.w{
+    background: url("images/tom4.png") no-repeat;
+}
+
+
+.a{
+    background: url("images/tom2.png") no-repeat;
+    background-color: white;
+    
+}
+
+.s{
+    background: url("images/tom1.png") no-repeat;
+    background-color: white;
+}
+
+.d{
+    background: url("images/tom3.png") no-repeat;
+}
+
+.j{
+    background: url("images/snare.png") no-repeat;
+    background-color: white;
+}
+
+.k{
+    background: url("images/kick.png") no-repeat;
+}
+
+.l{
+    background: url("images/crash.png") no-repeat;
+}
+
+
